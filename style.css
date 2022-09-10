@@ -38,9 +38,37 @@ body {
 
 .navbar a {
   text-decoration: none;
+  color: #d3d3d3;
+}
+.navbar-home{
+  color: #d3d3d3;
+  transition: transform 2s ease, color 2s ease;;
+}
+.navbar-home :hover{
   color: white;
 }
 
+.navbar-about{
+  color: #d3d3d3;
+  transition: transform 2s ease, color 2s ease;;
+}
+.navbar-about :hover{
+  color: white;
+}
+.navbar-gallery{
+  color: #d3d3d3;
+  transition: transform 2s ease, color 2s ease;;
+}
+.navbar-gallery :hover{
+  color: white;
+}
+.navbar-contact{
+  color: #d3d3d3;
+  transition: transform 2s ease, color 2s ease;;
+}
+.navbar-contact :hover{
+  color: white;
+}
 /* Header - Title Section */
 .title {
   height: 700px;
@@ -62,7 +90,7 @@ body {
 
 
 .about {
-  padding: 40px 0;
+  padding: 60px 0;
 }
 
 .about-flex {
@@ -85,6 +113,7 @@ body {
 .about-card > img {
   width: 100%;
   height: auto;
+  border-radius: 5%;
 }
 
 .about-stats {
@@ -113,6 +142,34 @@ body {
 .contact {
   padding: 60px 0;
 }
+
+
+
+/*.contact-img img{
+  width: 1519.200px;
+  margin-bottom: 60px;
+}*/
+.contacttop-img{
+  background-image: url(images/toa-heftiba-FV3GConVSss-unsplash.jpg);
+  background-size: cover;
+}
+.contacttopimg-flex{
+  display: flex;
+}
+.contacttop-left {
+  padding: 100px 0;
+  color: white;
+  width: 30%;
+  margin-right: 0
+}
+.contacttop-right{
+  width: 70%;
+  color: white;
+  padding-top: 102px;
+}
+
+
+
 
 .contact-form {
   width: 70%;
@@ -165,6 +222,31 @@ body {
   width: 70%;
   color: lightgray;
 }
+.newsright a{
+  text-decoration: none;
+  color: lightgray;
+}
+.news-texttop-titile {
+  color: lightgray;
+  transition : transform 2s ease, color 2s ease;
+}
+.news-texttop-titile :hover{
+  color: #ff5757;
+}
+.news-textmid-title {
+  color: lightgray;
+  transition : transform 2s ease, color 2s ease;
+}
+.news-textmid-title :hover{
+  color: #ff5757;
+}
+.news-textbot-title {
+  color: lightgray;
+  transition : transform 2s ease, color 2s ease;
+}
+.news-textbot-title :hover{
+  color: #ff5757;
+}
 .newsright h1{
   margin-bottom: 0px;
 }
@@ -207,6 +289,14 @@ body {
 }
 
 /* Copy this to your .css file */
+.gallery{
+  background-color: #232323;
+  padding: 50px 0;
+}
+.filter{
+  margin-bottom: 30px;
+}
+
 .gallery-item {
   float: left;
   width: 25%;
