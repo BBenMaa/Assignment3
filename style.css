@@ -321,9 +321,6 @@ body {
   scale: 1.05;
 }
 
-
-
-
 .gallery-item {
   float: left;
   width: 25%;
@@ -435,5 +432,11 @@ body {
   }
   .newsright{
     width: 100%;
+  }
+  .contact-flex{
+    justify-content: flex-start;
+  }
+  .contact-form {
+  width: 100%;
   }
 }
