@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Avenir' , sans-serif;
 }
 
 .container {
@@ -168,8 +168,6 @@ body {
 .contact {
   padding: 60px 0;
 }
-
-
 
 /*.contact-img img{
   width: 1519.200px;
@@ -485,11 +483,9 @@ body {
   margin: 120px 450px 80px 330px ;
   font-size: 50px;
 }
-
-
-
-
-
+.ma-flex h1{
+  color: #6d6d6d;
+}
 
 @media(max-width: 700px){
   .container{
